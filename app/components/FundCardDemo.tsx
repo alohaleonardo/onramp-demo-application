@@ -26,7 +26,7 @@ export const FundCardDemo = () => {
   const [asset, setAsset] = useState('BTC');
   const [presetAmountInputs, setPresetAmountInputs] = useState<
     FundCardPropsReact['presetAmountInputs']
-  >(['10', '20', '30']);
+  >(['1', '2', '3']);
 
   const handleCurrencySelection = (value: Key | null) => {
     if (value) {
@@ -57,7 +57,7 @@ export const FundCardDemo = () => {
       <div className="flex flex-col gap-2 items-center p-4">
         <Card>
           <CardHeader>
-            <p className="text-white text-lg">Fund card props</p>
+            <p className="text-white text-lg">Fund card demo by Leo</p>
           </CardHeader>
           <CardBody>
             <div>
